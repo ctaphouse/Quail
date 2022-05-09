@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ardalis.apiendpoints" Version="4.0.1" />
+    <PackageReference Include="fluentvalidation.aspnetcore" Version="11.0.1" />
+    <PackageReference Include="microsoft.aspnetcore.components.webassembly.server" Version="6.0.4" />
+    <PackageReference Include="microsoft.aspnetcore.diagnostics.entityframeworkcore" Version="6.0.4" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="6.0.4" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="6.0.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="sixlabors.imagesharp" Version="2.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
