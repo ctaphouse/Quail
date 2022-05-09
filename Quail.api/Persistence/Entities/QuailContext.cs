@@ -10,9 +10,10 @@ public QuailContext(DbContextOptions<QuailContext> options) : base(options)
     
 }
 
-public DbSet<Student>? Students { get; set; }
-public DbSet<Department>? Departments { get; set; }
-public DbSet<Course>? Courses { get; set; }
+public DbSet<Student> Students { get; set; } = default!;
+public DbSet<Department> Departments { get; set; } = default!;
+public DbSet<Course> Courses { get; set; } = default!;
+public DbSet<CourseStudent> CourseStudent { get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
