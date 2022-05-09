@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="fluentvalidation" Version="11.0.1" />
+    <PackageReference Include="fluentvalidation" Version="10.4.0" />
     <PackageReference Include="mediatr" Version="10.0.1" />
     <PackageReference Include="microsoft.aspnetcore.components.forms" Version="6.0.4" />
     <PackageReference Include="microsoft.aspnetcore.components.web" Version="6.0.4" />
