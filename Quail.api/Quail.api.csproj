@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="ardalis.apiendpoints" Version="4.0.1" />
-    <PackageReference Include="fluentvalidation.aspnetcore" Version="11.0.1" />
+    <PackageReference Include="fluentvalidation.aspnetcore" Version="10.4.0" />
     <PackageReference Include="microsoft.aspnetcore.components.webassembly.server" Version="6.0.4" />
     <PackageReference Include="microsoft.aspnetcore.diagnostics.entityframeworkcore" Version="6.0.4" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="6.0.4" />

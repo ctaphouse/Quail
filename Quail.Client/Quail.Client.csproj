@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="blazored.fluentvalidation" Version="2.0.3" />
+    <PackageReference Include="fluentvalidation" Version="10.4.0" />
     <PackageReference Include="mediatr" Version="10.0.1" />
     <PackageReference Include="mediatr.extensions.microsoft.dependencyinjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
